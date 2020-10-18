@@ -33,7 +33,7 @@ public class ForLoop {
 		
 		
 		
-		for (int b=10; b>0; b--) {
+		for (int b=10; b>0;  b--) {
 			System.out.print(" "+b);
 		}
 		
