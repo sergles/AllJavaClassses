@@ -119,6 +119,13 @@ public class WhileVsDoWhile {
 		}
 	}
 	    }
+	 System.out.println("------------------------------");
+	 
+	 
+	 
+	 
+	 
+	 
 	
 	
 	
