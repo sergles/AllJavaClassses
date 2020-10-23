@@ -19,6 +19,14 @@ public class ArrayAnotherWay {
 	System.out.println("Size of names array "+size);
 	
 	
+	int a = 2;
+	
+	
+	for (int i=0; i<=names.length; i++) {
+		System.out.println(names[i]);
+	}
+	
+	
 	
 	
 	
