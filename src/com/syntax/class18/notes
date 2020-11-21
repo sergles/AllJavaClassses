@@ -1,0 +1,64 @@
+Yet another type of variables
+1) local
+2) Instance variables
+3) Static variables
+
+local variables:
+any variable that is declered inside the method or a block like while
+loop for loop if condition or inside the constructor are called local variables.
+Properties of local variables.
+1) we cant acces them outside of the block, for example:
+if (2>1){
+int x=10 // this  variable will not be accesible outside of the curly brackets of IF condition
+}
+x=20 - wrong
+2) as soon as we are done with method these local variables are destroyed
+and memory is freed and is available to be  used by other programs,
+which means they are very efficient managing memory and thats why they always recommeded
+over instace variables
+
+Instance variables:
+All of the variables which are declared outside of the main methods, blocks,
+constructors but inside the class are called instance variables.
+1) Memory is allocated inside RAM as soon as object of that class is created
+and it stays in memory unless we are done wit the closing bracket.
+2) They are highly discouraged because thay are not efficient in handling memory (RAM).
+
+Static variables:
+They are declared outside ofthe method, constructor and block of codes with static keyword
+
+Access modifiers:
+Access modifiers are just keyword (Private public protected) that help use reduce the visibility of
+our variables and methods so tha no one else from other classes or packages can modify our data
+Private:
+If we use Private access modifier with out variable or method we can only access that variable
+from the same class. We use it to protect critical information
+
+class Account{
+private int balance;
+void depositMoney(){
+if (properChannel, int money){
+
+balance = balance+money
+
+}
+}
+}
+
+class hacker{
+balance = 10000; // CE Cannot access
+}
+Default:
+this is not a keyword it is a behaviour which is assigne to the methods
+pr properties automatically if we are not assigning any access modifier.
+
+package1
+class{
+String car;
+
+}
+package2
+class family{
+car = "i am your little brother i am using your car today forgive i destroy it"
+
+}

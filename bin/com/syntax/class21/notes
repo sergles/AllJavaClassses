@@ -1,0 +1,28 @@
+Inheritance:
+
+Inheritance is mechanism in java through which we can use the fields and methods
+from one class to other class  without rewriting a single line of code/repeating the code
+from the class from which we are inheriting.
+
+Benefits of using inheritance:
+1) Cleaner more efficient code for memory and execution.
+2) It helps use reduce duplicate code.
+3) Saves time
+4) Reusing the same code again.
+
+Disadvantages:
+1) Classes are tightly coupled together in Parent class effect Child class
+Class Parent{
+int money;
+void print(){
+System,out.println("Money ="+Money);
+}
+}
+Class Child extends Parent{
+main(){
+Child child = new Child()
+child.print();
+}
+}
+
+we can access our static fields and methods using class names and using objects of the class by using Class name

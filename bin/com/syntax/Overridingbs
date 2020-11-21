@@ -1,0 +1,36 @@
+
+RULES FOR OVERRIDING:
+
+1)  There should be inheritance relationship between the class
+ in which we are overriding the method.
+
+2)  We can not override private methods, constructor and initializer blocks
+why because they dont participate in.
+
+3)  We cannot decrease the visibility of our methods for example
+if something is public in our parent class
+we cant make it default/protected but
+we can increase the visibility like if something is protected/default
+we can make it public.
+Why: Because it breaks our inheritance contact like if we have something as public
+and if we try to make it private it will be not available in out child class.
+
+4)  We cannot change the written type of the method being overridden.
+Because it will affect the polymorphism.
+POLYMORPHISM:
+Polymorphism allows us to play with all of the subclasses within a few lines
+(loops for example)  that requires all the overridden methods in the derived classes
+to return the same type. Otherwise we have to make exceptions for all the overridden methods
+in derived classes. That kind of defeats the purposeof OOP.
+Then there would be no use to create objects. We can basically go back
+to procedural programming and keep writing separate methods for everything we created.
+
+5) To override a method, the name of the method in your child class
+must be the ame as method in your parent class tha your are trying to override.
+Why? Because this is one of the features thru which your Java
+will identify which method to override.
+
+6) To override a method, the signature of the method should be same.
+
+7)
+
